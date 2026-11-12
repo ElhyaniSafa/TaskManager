@@ -1,5 +1,5 @@
 import React from 'react';
-import TaskCard from '../Header/TaskCard';
+import TaskCard from '../TaskCard/TaskCard';
 
 function TaskList({ tasks = [] }) {
   return (

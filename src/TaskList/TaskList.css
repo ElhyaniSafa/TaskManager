@@ -1,0 +1,48 @@
+
+.task-list {
+  width: 100%;
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #f8fafc;
+  border-radius: 16px;
+}
+
+.task-list h2 {
+  font-size: 23px;
+  color: #1e293b;
+  margin-bottom: 22px;
+}
+
+.task-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.empty-message {
+  text-align: center;
+  color: #94a3b8;
+  padding: 35px 15px;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px dashed #cbd5e1;
+}
+
+@media (max-width: 600px) {
+  .task-list {
+    padding: 15px;
+    margin: 15px auto;
+  }
+
+  .task-card {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .task-actions {
+    width: 100%;
+  }
+}
